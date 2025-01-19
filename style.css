@@ -2,4 +2,73 @@
 
 body{
     font-family: "Poppins", serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.primary-btn{
+    color: white;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 41px;
+}
+.primary-color{
+    color: #3A3A3A;
+}
+.camera-img{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.img-nav{
+    width: 2rem;
+    height: 2rem;
+}
+.header-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* padding: 20px; */
+}
+
+.display-flex{
+    display: flex;
+}
+.nav-list, a, li{
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    color: inherit;
+}
+.nav-all{
+    justify-content: space-between;
+}
+
+.banner-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.banner{
+    justify-content: space-between;
+    margin: 50px 0;
+    margin-bottom: 140px;
+    height: 10%;
+}
+
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-items: center;
+    box-shadow: 0px 2px 30px 2px rgb(240, 239, 239);
+    padding: 36px;
 }
