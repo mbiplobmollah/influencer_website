@@ -119,6 +119,36 @@ body{
     color: #787885;
 
 }
+.see-more{
+    color: #E02C6D;
+    text-align: end;
+    padding-right: 50px;
+}
+
+.feature-all{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+.features{
+    margin-top: 100px;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-title{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.feature-descriptioin{
+    font-size: 1rem;
+}
+.feature-btn{
+    border-radius: 0;
+    padding-top: 15px;
+}
 
 
 
