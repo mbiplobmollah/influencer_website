@@ -153,7 +153,28 @@ body{
     padding-top: 15px;
     padding-bottom: 12px;
 }
+.footer-all{
+    background-color: #0A0826;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-box{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-title{
+    font-size: 1.5rem;
+}
+.footer-right, .footer-copy{
+    font-size: 0.8rem;
+}
 
 
 
